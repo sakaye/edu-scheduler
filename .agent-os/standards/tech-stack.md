@@ -2,30 +2,34 @@
 
 ## Context
 
-Global tech stack defaults for Agent OS projects, overridable in project-specific `.agent-os/product/tech-stack.md`.
+Tech stack for edu-scheduler Laravel application.
 
-- App Framework: Laravel 12.0+
-- Language: PHP 8.3+
-- Primary Database: PostgreSQL 17+
-- ORM: Active Record
-- JavaScript Framework: React latest stable
-- Build Tool: Vite
-- Import Strategy: Node.js modules
+- App Framework: Laravel 12.28.1
+- Language: PHP 8.3.25
+- Primary Database: PostgreSQL
+- ORM: Eloquent (Active Record)
+- Frontend Framework: Livewire 3.6.4 with Volt 1.7.2
+- Build Tool: Vite 7.0.4
+- Import Strategy: Node.js modules (ES modules)
 - Package Manager: npm
-- Node Version: 22 LTS
+- Node Version: 22 LTS (22.19.0)
 - CSS Framework: TailwindCSS 4.0+
-- UI Components: Instrumental Components latest
-- UI Installation: Via development gems group
-- Font Provider: Google Fonts
-- Font Loading: Self-hosted for performance
-- Icons: Lucide React components
+- UI Components: Flux UI Pro 2.3.1 + Flux UI Free 2.3.1
+- Admin Panel: Filament 4.0.8
+- Testing Framework: Pest 4.0.4
+- Code Formatter: Laravel Pint 1.24.0
+- Development Tools: Laravel Telescope 5.11.3, Laravel Horizon 5.33.5
+- Container Environment: Laravel Sail 1.45.0
+- Font Provider: TBD
+- Font Loading: TBD
+- Icons: TBD
 - Database Hosting: TBD
-- Database Backups: Daily automated
-- Asset Storage: TBD - Amazon S3
+- Database Backups: TBD
+- Asset Storage: TBD
 - CDN: TBD
-- Asset Access: Private with signed URLs
-- CI/CD Platform: GitHub Actions
-- CI/CD Trigger: Push to main/staging branches
-- Tests: Run before deployment
-- Production Environment: main branch
-- Staging Environment: staging branch
+- Asset Access: TBD
+- CI/CD Platform: TBD
+- CI/CD Trigger: TBD
+- Tests: Pest testing framework
+- Production Environment: TBD
+- Staging Environment: TBD
