@@ -1,20 +1,28 @@
 {
-    "mcpServers": {
-        "laravel-boost": {
-            "command": "php",
-            "args": [
-                "artisan",
-                "boost:mcp"
-            ]
-        },
-        "herd": {
-            "command": "php",
-            "args": [
-                "/Applications/Herd.app/Contents/Resources/herd-mcp.phar"
-            ],
-            "env": {
-                "SITE_PATH": "/Users/bsakaye/Herd/edu-scheduler"
-            }
-        }
+  "mcpServers": {
+    "laravel-boost": {
+      "command": "php",
+      "args": [
+        "artisan",
+        "boost:mcp"
+      ]
+    },
+    "herd": {
+      "command": "php",
+      "args": [
+        "/Applications/Herd.app/Contents/Resources/herd-mcp.phar"
+      ],
+      "env": {
+        "SITE_PATH": "/Users/bsakaye/Herd/edu-scheduler"
+      }
+    },
+    "playwright": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest"
+      ],
+      "env": {}
     }
+  }
 }
