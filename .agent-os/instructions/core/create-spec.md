@@ -316,6 +316,7 @@ Use the file-creator subagent to create the file: sub-specs/database-schema.md O
 
 <decision_tree>
   IF spec_requires_database_changes:
+    REFERENCE: @.agent-os/standards/code-style.md and @.agent-os/standards/best-practices.md
     CREATE sub-specs/database-schema.md
   ELSE:
     SKIP this_step
@@ -358,6 +359,7 @@ Use the file-creator subagent to create file: sub-specs/api-spec.md ONLY IF API 
 
 <decision_tree>
   IF spec_requires_api_changes:
+    REFERENCE: @.agent-os/standards/code-style.md and @.agent-os/standards/best-practices.md
     CREATE sub-specs/api-spec.md
   ELSE:
     SKIP this_step
